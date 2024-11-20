@@ -8,7 +8,7 @@ setup(
     description="A Python package for predicting ASB risk from clinical data.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ASBPredictor",
+    url="https://github.com/yangfangs/ASBPredictor",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
