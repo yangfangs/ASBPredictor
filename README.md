@@ -32,7 +32,10 @@ ASBPredictor -i <input_csv_path> -o <output_csv_path>
 ```
 
 ## **Example**
+
 ```bash
+git clone https://github.com/yangfangs/ASBPredictor.git
+cd ASBPredictor/examples/
 ASBPredictor -i input_data.csv -o output_data.csv
 ```
 
@@ -41,5 +44,5 @@ ASBPredictor -i input_data.csv -o output_data.csv
 Python version >= 3.6
 Required libraries:
 pandas >= 1.0.0
-scikit-learn >= 0.24.0
+scikit-learn >= 1.5.0
 ```
