@@ -57,9 +57,7 @@ def main():
     parser = argparse.ArgumentParser(description="ASBPredictor: Predict ASB Risk from clinical data")
     parser.add_argument("-i", "--input", required=True, help="Path to input CSV file")
     parser.add_argument("-o", "--output", required=True, help="Path to output CSV file")
-
     args = parser.parse_args()
-
     predictor = ASBPredictor()
     predictor.predict(args.input, args.output)
 

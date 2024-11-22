@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     install_requires=[
         "pandas>=1.0.0",
-        "scikit-learn>=0.24.0"
+        "scikit-learn>=1.5.0"
     ],
     entry_points={
         "console_scripts": [
