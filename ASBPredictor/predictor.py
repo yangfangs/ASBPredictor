@@ -27,9 +27,7 @@ class ASBPredictor:
             raise ValueError("The first column of the input CSV file must be 'ID'.")
 
         # Ensure all required columns are present
-        expected_columns = ["CXM", "CRP", "Na", "BACT", "WBC", "WBCC", "MONV",
-                            "CRO", "GGT", "ALT", "GLU.1", "FOX", "AST", "RDWCV",
-                            "Urea", "Cl", "WBCHP", "TP", "GLO", "FOB"]
+        expected_columns = ["CRP","BACT","UWBCC","ALT","GLU","GGT","Na","EOS%","Urea","Cl","MONV","UWBC","RDWCV","AST","RBC","RBCHP","MUCS","UWBCHP","GLO","NSEHP"]
         missing_columns = [col for col in expected_columns if col not in df.columns]
         if missing_columns:
             raise ValueError(f"Missing columns in input file: {missing_columns}")

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ASBPredictor",
-    version="0.1.0",
+    version="0.1.1",
     author="Yang Fang",
     author_email="yangfangscu@gmail.com",
     description="A Python package for predicting ASB risk from clinical data.",
